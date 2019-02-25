@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #fourbtn {
+            position: relative;
+            height: 912px;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        #fourbtn .four {
+            position: absolute;
+            right: 20px;
+            top: 30%;
+            cursor: pointer;
+        }
+
+        #fourbtn .active {
+            background: #fff;
+            border: 2px solid #222;
+        }
+
+        #fourbtn input {
+            display: block;
+            width: 6px;
+            height: 15px;
+            border: 1px solid #fff;
+            background-color: #222;
+            margin: 6px 0;
+        }
+
+        .box {
+            background: url("../images/beijingtu1.jpg");
+        }
+
+    </style>
+    <script>
+        window.onload = function () {
+            var oDiv = document.getElementById('fourbtn');
+            var aBtn = document.getElementsByTagName('input');
+            var aDiv = oDiv.getElementsByTagName('div');  //除了div1以外的div
+
+            for (var i = 0; i < aBtn.length; i++) 
+            {
+                aBtn[i].index = i;         //js自定义属性是ok的 为了找出当前this的索引 
+                aBtn[i].onclick = function () 
+                {
+                    for (var i = 0; i < aBtn.length; i++) {
+                        aBtn[i].className = '';
+                    }
+                    this.className = 'active';
+
+
+                    // 很笨拙的办法，一定有更好的！以后再修改
+                    if(this.index=='0')
+                    {
+                        oDiv.style.backgroundImage='url(../images/beijingtu1.jpg)';
+                    }
+                    else if(this.index=='1')
+                    {
+                        oDiv.style.backgroundImage='url(../images/beijingtu2.jpg)';
+                    }
+                    else if(this.index=='2')
+                    {
+                        oDiv.style.backgroundImage='url(../images/beijingtu3.jpg)';
+                    }
+                    else
+                    {
+                        oDiv.style.backgroundImage='url(../images/beijingtu4.jpg)';
+                    }
+                    
+                };
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div id="fourbtn" class="box">
+        <div class="four">
+            <input class="active" type="button">
+            <input type="button">
+            <input type="button">
+            <input type="button">
+        </div>
+        <!-- input标签算是一个数组了 不需要每一个给一个ID名 -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.navbar {
+  border: none;
+  height: 78px;
+}
+
+.navbar-nav {
+  padding-left: 400px;
+  padding-top: 15px;
+  /* 让导航条的上边距多15px，从而让ul>li>a 垂直分布 */
+}
+
+.navbar-header {
+  /* 让手机端的导航条高度也变为78px */
+  height: 78px;
+}
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: #080808;
+}
+
+#page_top {
+  background-image: url(../images/top.jpg);
+  height: 202px;
+  padding-top: 130px;
+}
+#page_top .page_top_in {
+  padding-left: 40px;
+}
+#page_top .page_top_in h1 {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#page_top .page_top_in a {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+
+/* , #page_top .page_top_in div */
+
+/*# sourceMappingURL=nav.css.map */

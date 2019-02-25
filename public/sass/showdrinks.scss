@@ -1,0 +1,127 @@
+//明星产品部分
+.container {
+    background-color: #fff;
+}
+
+#page_muen_nav {
+    width: 95%;
+    max-width: 1180px;
+    min-width: 760px;
+    _width: 960px;
+    height: auto;
+    padding: 10px;
+    margin: 10px auto;
+    border-bottom: dashed #D5D5D5 1px;
+}
+
+.no_ {
+    text-decoration: none;
+    color: #333;
+    &:hover {
+        text-decoration: none;
+        color: #188fba;
+    }
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding-left: 15px; */
+}
+
+.col-md-3 {
+    overflow: hidden;
+    position: relative;
+    min-height: 1px;
+    //margin:0 5px;
+    p {
+        height: 54px;
+    }
+    div {
+        padding-bottom: 20px;
+        margin: 0 5px;
+        &:hover {
+            border: 1px #F3F3F3 solid;
+            .btn-warning {
+                background-color: #ffa800;
+                color: #fff;
+            }
+        }
+    }
+}
+
+$btn-color: #ffa800;
+.btn-warning {
+    color: $btn-color;
+    background-color: #fff;
+    border-color: $btn-color;
+    font-size: 12px;
+    &:hover, .focus {
+        font-size: 12px;
+        color: #fff;
+        background-color: $btn-color;
+        border-color: $btn-color;
+    }
+}
+
+.drinkname {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    &:hover {
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #333;
+    }
+}
+
+.description_of_drink {
+    color: #999;
+    font-size: 12px;
+    margin-left: 5px;
+    -webkit-margin-before: 2em;
+    -webkit-margin-after: 2em;
+}
+
+// .col-md-3下面的div鼠标经过的时候 .btn-warning的样式改变为如下
+// .col-md-3 div:hover .btn-warning {
+//     background-color: #ffa800;
+//     color: #fff;
+// }
+
+
+//页面跳转部分 上一页下一页
+.button {
+    color: #fff;
+    font-size: 12px;
+    background-color: #2a2b2b;
+    border: none;
+    padding: 6px 12px;
+    /* 分别代表距按钮上下内边距 */
+    text-decoration: none;
+    /* margin:10px 5px 15px 20px;  代表外边距  上右下左             */
+
+    &:hover {
+        color: #fff;
+        background-color: #188fba;
+        border: none;
+        padding: 6px 12px;
+        text-decoration: none;
+
+    }
+}
+
+.pager {
+    padding: 20px 0 40px 0;
+    .active {
+        color: #fff;
+        background-color: #188fba;
+    }
+}

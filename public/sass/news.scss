@@ -1,0 +1,78 @@
+//news样式表
+ul {
+    list-style: none;
+}
+
+.asidebox {
+    width: 376px;
+    height: 674px;
+    float: left;
+    border: #dfdddd 1px solid;
+}
+
+.news_title {
+    color: red;
+    margin: 10px;
+    border-bottom: #dfdddd 1px solid;
+    div {
+        color: #3c3c3c;
+        font-weight: 700;
+    }
+}
+
+.empty {
+    height: 190px;
+}
+
+.has_kid {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* 用于覆盖 */
+.nav-stacked li a {
+    font-size: 14px;
+    color: #3c3c3c;
+}
+
+.content {
+    width: 1180px;
+}
+
+.rightbox {
+    width: 800px;
+    float: left;
+    padding-left: 30px;
+    ul li {
+        width: 800px;
+        height: 175px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        /* background-color: pink; */
+        border-bottom: 1px dashed #ccc;
+        img {
+            width: 225px;
+            float: left;
+        }
+        span {
+            float: left;
+            a {
+                padding-left: 12px;
+                font-size: 16px;
+                float: left;
+                font-weight: 700;
+                color: #333;
+            }
+            em {
+                padding-left: 12px;
+                font-size: 12px;
+                color: #999;
+            }   
+        }
+    }
+}

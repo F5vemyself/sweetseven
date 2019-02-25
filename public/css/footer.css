@@ -1,0 +1,122 @@
+.footer {
+  height: auto;
+  background: #fff;
+  border-top: solid 1px #3c3c3c;
+  position: relative;
+  z-index: 10;
+  background: url(../images/footerbackground.png);
+  top: 0;
+}
+
+.footer_in {
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  z-index: 1;
+}
+
+.footer_in_box {
+  height: 175px;
+  float: left;
+  margin: 10px 1.1% 0 0;
+  overflow: hidden;
+  text-align: left;
+}
+.footer_in_box a {
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+.footer_in_box .blogo {
+  width: 328px;
+  height: 184px;
+}
+.footer_in_box .ewm {
+  float: left;
+  width: 88px;
+  height: 88px;
+}
+.footer_in_box b {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  float: left;
+  margin: 5px 0 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3c3c3c;
+  font-weight: normal;
+}
+
+.about_text {
+  float: left;
+  font-size: 12px;
+  color: #dbdbdb;
+  margin-top: 10px;
+  display: block;
+  width: 192px;
+}
+
+.footer_links {
+  padding: 5px 0 2% 0;
+  width: 37%;
+}
+
+.contact_text_p {
+  font-size: 14px;
+  color: #FFF;
+  display: block;
+  width: 362px;
+  float: left;
+  margin-top: 10px;
+  padding-left: 30px;
+  background: no-repeat 0 -1041px url(../images/Sprites.png);
+}
+
+#footer_bottom_link {
+  display: block;
+  width: 100%;
+  height: 120px;
+  float: left;
+  text-align: center;
+  border-top: solid 1px #3c3c3c;
+  padding: 10px 0;
+  margin-top: 5px;
+}
+#footer_bottom_link p {
+  font-size: 12px;
+  color: #FFF;
+  line-height: 30px;
+}
+#footer_bottom_link a {
+  font-size: 12px;
+  color: #FFF;
+  line-height: 30px;
+}
+#footer_bottom_link div {
+  width: 100%;
+  height: 45px;
+  padding-bottom: 10px;
+  display: block;
+  border-bottom: #3c3c3c 1px solid;
+}
+#footer_bottom_link a:hover {
+  font-size: 12px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer_bottom {
+  padding: 10px 0;
+  height: 30px;
+  border-top: solid 1px #3c3c3c;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=footer.css.map */
