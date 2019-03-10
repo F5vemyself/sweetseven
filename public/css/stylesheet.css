@@ -1,0 +1,443 @@
+@charset "UTF-8";
+.navbar {
+  border: none;
+  height: 78px;
+}
+
+.navbar-nav {
+  padding-left: 400px;
+  padding-top: 15px;
+  /* 让导航条的上边距多15px，从而让ul>li>a 垂直分布 */
+}
+
+.navbar-header {
+  /* 让手机端的导航条高度也变为78px */
+  height: 78px;
+}
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: #080808;
+}
+
+#page_top {
+  background-image: url(../images/top.jpg);
+  height: 202px;
+  padding-top: 130px;
+}
+#page_top .page_top_in {
+  padding-left: 40px;
+}
+#page_top .page_top_in h1 {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#page_top .page_top_in a {
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+}
+
+/* 选项卡部分 */
+#fourbtn {
+  position: relative;
+  height: 912px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#fourbtn .four {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  cursor: pointer;
+}
+#fourbtn .active {
+  background: #fff;
+  border: 2px solid #222;
+}
+#fourbtn input {
+  display: block;
+  width: 6px;
+  height: 15px;
+  border: 1px solid #fff;
+  background-color: #222;
+  margin: 6px 0;
+}
+
+.box {
+  background: url("../images/beijingtu1.jpg");
+}
+
+.AboutTitle {
+  color: #f50028;
+  text-align: center;
+}
+.AboutTitle .english {
+  display: inline-block;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.about-h5 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.about_title_p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  line-height: 10px;
+  transition: all 0.5s;
+}
+
+.col-md-6 img, .news_right {
+  float: left;
+}
+.col-md-6 img .about_news, .news_right .about_news {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+.col-md-6 img em, .news_right em {
+  font-size: 12px;
+  color: #ffa800;
+}
+
+.btn-danger {
+  border: solid 1px #f50028;
+  background-color: #fff;
+  color: #f50028;
+  padding: 8px 25px;
+  font-size: 16px;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #f50028;
+  border: none;
+}
+
+.btn-position {
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+}
+
+#page_muen_nav {
+  width: 95%;
+  max-width: 1180px;
+  min-width: 760px;
+  _width: 960px;
+  height: auto;
+  padding: 10px;
+  margin: 10px auto;
+  border-bottom: dashed #D5D5D5 1px;
+}
+
+.no_ {
+  text-decoration: none;
+  color: #333;
+}
+.no_:hover {
+  text-decoration: none;
+  color: #188fba;
+}
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* padding-left: 15px; */
+}
+
+.col-md-3 {
+  overflow: hidden;
+  position: relative;
+  min-height: 1px;
+}
+.col-md-3 p {
+  height: 54px;
+}
+.col-md-3 div {
+  padding-bottom: 20px;
+  margin: 0 5px;
+}
+.col-md-3 div:hover {
+  border: 1px #F3F3F3 solid;
+}
+.col-md-3 div:hover .btn-warning {
+  background-color: #ffa800;
+  color: #fff;
+}
+
+.btn-warning {
+  color: #ffa800;
+  background-color: #fff;
+  border-color: #ffa800;
+  font-size: 12px;
+}
+.btn-warning:hover, .btn-warning .focus {
+  font-size: 12px;
+  color: #fff;
+  background-color: #ffa800;
+  border-color: #ffa800;
+}
+
+.drinkname {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+.drinkname:hover {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.description_of_drink {
+  color: #999;
+  font-size: 12px;
+  margin-left: 5px;
+  -webkit-margin-before: 2em;
+  -webkit-margin-after: 2em;
+}
+
+.button {
+  color: #fff;
+  font-size: 12px;
+  background-color: #2a2b2b;
+  border: none;
+  padding: 6px 12px;
+  /* 分别代表距按钮上下内边距 */
+  text-decoration: none;
+  /* margin:10px 5px 15px 20px;  代表外边距  上右下左             */
+}
+.button:hover {
+  color: #fff;
+  background-color: #188fba;
+  border: none;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.pager {
+  padding: 20px 0 40px 0;
+}
+.pager .active {
+  color: #fff;
+  background-color: #188fba;
+}
+
+ul {
+  list-style: none;
+}
+
+.asidebox {
+  width: 376px;
+  height: 674px;
+  float: left;
+  border: #dfdddd 1px solid;
+}
+
+.news_title {
+  color: red;
+  margin: 10px;
+  border-bottom: #dfdddd 1px solid;
+}
+.news_title div {
+  color: #3c3c3c;
+  font-weight: 700;
+}
+
+.empty {
+  height: 190px;
+}
+
+.has_kid {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+/* 用于覆盖 */
+.nav-stacked li a {
+  font-size: 14px;
+  color: #3c3c3c;
+}
+
+.content {
+  width: 1180px;
+}
+
+.rightbox {
+  width: 800px;
+  float: left;
+  padding-left: 30px;
+}
+.rightbox ul li {
+  width: 800px;
+  height: 175px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  /* background-color: pink; */
+  border-bottom: 1px dashed #ccc;
+}
+.rightbox ul li img {
+  width: 225px;
+  float: left;
+}
+.rightbox ul li span {
+  float: left;
+}
+.rightbox ul li span a {
+  padding-left: 12px;
+  font-size: 16px;
+  float: left;
+  font-weight: 700;
+  color: #333;
+}
+.rightbox ul li span em {
+  padding-left: 12px;
+  font-size: 12px;
+  color: #999;
+}
+
+.footer {
+  height: auto;
+  background: #fff;
+  border-top: solid 1px #3c3c3c;
+  position: relative;
+  z-index: 10;
+  background: url(../images/footerbackground.png);
+  top: 0;
+}
+
+.footer_in {
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  z-index: 1;
+}
+
+.footer_in_box {
+  height: 175px;
+  float: left;
+  margin: 10px 1.1% 0 0;
+  overflow: hidden;
+  text-align: left;
+}
+.footer_in_box a {
+  float: left;
+  padding: 5px;
+  margin: 10px;
+}
+.footer_in_box .blogo {
+  width: 328px;
+  height: 184px;
+}
+.footer_in_box .ewm {
+  float: left;
+  width: 88px;
+  height: 88px;
+}
+.footer_in_box b {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  float: left;
+  margin: 5px 0 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3c3c3c;
+  font-weight: normal;
+}
+
+.about_text {
+  float: left;
+  font-size: 12px;
+  color: #dbdbdb;
+  margin-top: 10px;
+  display: block;
+  width: 192px;
+}
+
+.footer_links {
+  padding: 5px 0 2% 0;
+  width: 37%;
+}
+
+.contact_text_p {
+  font-size: 14px;
+  color: #FFF;
+  display: block;
+  width: 362px;
+  float: left;
+  margin-top: 10px;
+  padding-left: 30px;
+  background: no-repeat 0 -1041px url(../images/Sprites.png);
+}
+
+#footer_bottom_link {
+  display: block;
+  width: 100%;
+  height: 120px;
+  float: left;
+  text-align: center;
+  border-top: solid 1px #3c3c3c;
+  padding: 10px 0;
+  margin-top: 5px;
+}
+#footer_bottom_link p {
+  font-size: 12px;
+  color: #FFF;
+  line-height: 30px;
+}
+#footer_bottom_link a {
+  font-size: 12px;
+  color: #FFF;
+  line-height: 30px;
+}
+#footer_bottom_link div {
+  width: 100%;
+  height: 45px;
+  padding-bottom: 10px;
+  display: block;
+  border-bottom: #3c3c3c 1px solid;
+}
+#footer_bottom_link a:hover {
+  font-size: 12px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer_bottom {
+  padding: 10px 0;
+  height: 30px;
+  border-top: solid 1px #3c3c3c;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
