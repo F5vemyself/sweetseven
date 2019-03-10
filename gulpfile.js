@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),             //js压缩插件
     imagemin = require('gulp-imagemin'),        //图片压缩插件
     watch = require('gulp-watch');           //监听插件
-    // sass = require('gulp-sass');               //ps：目前使用不成功
+//     sass = require('gulp-sass');               //ps：目前使用不成功
 
     
 // gulp.task('sass', function () {
