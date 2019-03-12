@@ -24,7 +24,7 @@ var gulp = require('gulp'),
 
 //压缩css文件
 gulp.task('minifycss', function () {
-    return gulp.src('./public/**/*.css')    //压缩的文件的路径
+    return gulp.src('./public/**/style.css')    //压缩的文件的路径
         .pipe(minifycss())                  //执行css压缩函数
         .pipe(rename({
             suffix: '.min'
@@ -44,7 +44,7 @@ gulp.task('htmlmin', function () {
         minifyJS: true,//压缩页面JS
         minifyCSS: true//压缩页面CSS
     };
-    return gulp.src('./public/**/*.html')    //压缩的文件
+    return gulp.src('./public/**/index.html')    //压缩的文件
         .pipe(htmlmin(options))              //执行压缩
         .pipe(rename({
             suffix: '.min'

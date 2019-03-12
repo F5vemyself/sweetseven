@@ -1,10 +1,16 @@
 //index新增样式表
 .AboutTitle {
+    margin: 0 auto;
     color: #f50028;
+    max-width: 600px;
+    height: 30px;
+    border-bottom: 0.5px solid #f50028;
     text-align: center;
     .english {
         display: inline-block;
+        background-color: #fff;
         font-size: 30px;
+        padding: 0 20px;
         margin: 0 10px;
     }
 
